@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Table</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .container {
+            border-top: 5px solid #6f4e37;
+            margin-top: 10px;
+        }
+
+        .container h1 {
+            font-style: italic;
+        }
+
+        .container hr {
+            border-top: 5px solid #6f4e37;
+            margin-top: 10px;
+        }
+
+        .chessboard {
+            border: 1px solid black;
+            width: 100vh;
+            height: 100vh;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        .chessboard td {
+            width: 12.5%;
+            height: 12.5%;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 4vw; /* Adjust size of chess pieces */
+        }
+
+        .white {
+            background-color: #fffdd0;
+        }
+
+        .brown {
+            background-color: #6f4e37;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <h1>Chess Game</h1>
+            <hr>
+            
+            <!-- New Table for Chessboard -->
+            <table class="chessboard">
+                <!-- Black Pieces -->
+                <tr>
+                    <td class="white">&#9820;</td> <!-- Rook -->
+                    <td class="brown">&#9822;</td> <!-- Knight -->
+                    <td class="white">&#9821;</td> <!-- Bishop -->
+                    <td class="brown">&#9819;</td> <!-- Queen -->
+                    <td class="white">&#9818;</td> <!-- King -->
+                    <td class="brown">&#9821;</td> <!-- Bishop -->
+                    <td class="white">&#9822;</td> <!-- Knight -->
+                    <td class="brown">&#9820;</td> <!-- Rook -->
+                </tr>
+                <tr>
+                    <td class="brown">&#9823;</td> <!-- Pawn -->
+                    <td class="white">&#9823;</td> <!-- Pawn -->
+                    <td class="brown">&#9823;</td> <!-- Pawn -->
+                    <td class="white">&#9823;</td> <!-- Pawn -->
+                    <td class="brown">&#9823;</td> <!-- Pawn -->
+                    <td class="white">&#9823;</td> <!-- Pawn -->
+                    <td class="brown">&#9823;</td> <!-- Pawn -->
+                    <td class="white">&#9823;</td> <!-- Pawn -->
+                </tr>
+                <!-- Empty Rows -->
+                <tr>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                </tr>
+                <tr>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                </tr>
+                <tr>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                </tr>
+                <tr>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                    <td class="brown"></td>
+                    <td class="white"></td>
+                </tr>
+                <!-- White Pieces -->
+                <tr>
+                    <td class="white">&#9817;</td> <!-- Pawn -->
+                    <td class="brown">&#9817;</td> <!-- Pawn -->
+                    <td class="white">&#9817;</td> <!-- Pawn -->
+                    <td class="brown">&#9817;</td> <!-- Pawn -->
+                    <td class="white">&#9817;</td> <!-- Pawn -->
+                    <td class="brown">&#9817;</td> <!-- Pawn -->
+                    <td class="white">&#9817;</td> <!-- Pawn -->
+                    <td class="brown">&#9817;</td> <!-- Pawn -->
+                </tr>
+                <tr>
+                    <td class="brown">&#9814;</td> <!-- Rook -->
+                    <td class="white">&#9816;</td> <!-- Knight -->
+                    <td class="brown">&#9815;</td> <!-- Bishop -->
+                    <td class="white">&#9813;</td> <!-- Queen -->
+                    <td class="brown">&#9812;</td> <!-- King -->
+                    <td class="white">&#9815;</td> <!-- Bishop -->
+                    <td class="brown">&#9816;</td> <!-- Knight -->
+                    <td class="white">&#9814;</td> <!-- Rook -->
+                </tr>
+            </table>
+
+            <hr>
+            <a href="https://www.chess.com/" title="Chess.com">Chess Game</a>
+            <hr>
+        </div>
+    </center>
+</body>
+</html>
